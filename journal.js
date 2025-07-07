@@ -17,3 +17,13 @@ function findMax(num1, num2) {
 function isEven(number) {
     return number % 2 === 0;
 }
+
+// Check if the inputted day is Tuesday
+function isItTacoTime(day) {
+    if (day === 'Tuesday') {
+        return "Yay! It's taco tuesday!";
+    } else {
+        return "No tacos today :(";
+    }
+}
+
