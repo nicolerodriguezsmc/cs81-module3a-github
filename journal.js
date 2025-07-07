@@ -1,3 +1,9 @@
+/*
+* Nicole Rodriguez
+* CS 81
+* Module 3 assignment
+*/
+
 // Greet a user by name
 function greet(name) {
     return "Hello, " + name + "!";
