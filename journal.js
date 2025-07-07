@@ -19,7 +19,7 @@ function isEven(number) {
 }
 
 // Check if the inputted day is Tuesday
-function isItTacoTime(day) {
+function isItTacoTuesday(day) {
     if (day === 'Tuesday') {
         return "Yay! It's taco tuesday!";
     } else {
@@ -27,3 +27,11 @@ function isItTacoTime(day) {
     }
 }
 
+// Check if your crush loves you or not using number of petals
+function loveChecker(numPetals) {
+    if (numPetals % 2 === 1) {
+        return "They love me";
+    } else {
+        return "They love me not";
+    }
+}
